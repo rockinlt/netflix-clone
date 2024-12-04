@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-gradient-to-b from-black via-black/70 to-transparent z-10">
+    <nav class="flex items-center justify-between px-6 py-4">
+      <div class="text-2xl font-bold">Netflix</div>
+      <ul class="flex space-x-6 text-sm">
+        <li><a href="#" class="hover:text-gray-400">Home</a></li>
+        <li><a href="#" class="hover:text-gray-400">TV Shows</a></li>
+        <li><a href="#" class="hover:text-gray-400">Movies</a></li>
+        <li><a href="#" class="hover:text-gray-400">New & Popular</a></li>
+        <li><a href="#" class="hover:text-gray-400">My List</a></li>
+      </ul>
+      <div class="flex items-center space-x-4">
+        <input type="text" placeholder="Search" class="bg-white-800 text-sm px-4 py-1 rounded hidden sm:block">
+        <a href="#" class="hover:text-gray-400">🔍</a>
+        <a href="#" class="hover:text-gray-400">👤</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-screen flex items-end">
+    <img src="assests/what-new-on-netflix-in-november-2024-v0-u5g2wjhhirwd1.webp" alt="Featured Movie" class="absolute inset-0 w-full h-full object-cover opacity-70">
+    <div class="relative z-10 p-6 max-w-3xl">
+      <h1 class="text-4xl font-bold mb-4">Featured Movie Title</h1>
+      <p class="text-sm mb-4 text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet.</p>
+      <div class="flex space-x-4">
+        <button class="bg-red text-white px-4 py-2 rounded hover:bg-red-700">Play</button>
+        <button class="bg-red-800 px-4 py-2 rounded hover:bg-red-700">More Info</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Movie Sections -->
+  <section class="space-y-10 px-6 py-8">
+    <!-- Category 1 -->
+    <div>
+      <h2 class="text-xl font-bold mb-4">Trending Now</h2>
+      <div class="flex space-x-4 overflow-x-scroll scrollbar-hide">
+        <!-- Movie Cards -->
+        <div class="min-w-[200px]">
+          <img src="assests/movie1.png" alt="Movie 1" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="assests/movie3.jpg" alt="Movie 2" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="assests/movie5.jpg" alt="Movie 3" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 1" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 2" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 3" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <!-- Add more cards as needed -->
+      </div>
+    </div>
+
+    <!-- Category 2 -->
+    <div>
+      <h2 class="text-xl font-bold mb-4">Top Rated</h2>
+      <div class="flex space-x-4 overflow-x-scroll scrollbar-hide">
+        <!-- Movie Cards -->
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 1" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 2" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 3" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 1" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 2" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 3" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <!-- Add more cards as needed -->
+      </div>
+    </div>
+
+    <!-- Category 3 -->
+    <div>
+      <h2 class="text-xl font-bold mb-4">New Releases</h2>
+      <div class="flex space-x-4 overflow-x-scroll scrollbar-hide">
+        <!-- Movie Cards -->
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 1" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 2" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 3" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 1" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 2" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <div class="min-w-[200px]">
+          <img src="https://via.placeholder.com/200x300" alt="Movie 3" class="rounded-lg hover:scale-105 transition-transform">
+        </div>
+        <!-- Add more cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-4 text-center">
+    <p class="text-sm text-gray-400">© 2024 Netflix Clone. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
